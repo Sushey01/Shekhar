@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-content">
-        <h3>Created by Shekhar Magar</h3>
+        <h4>Created by Shekhar Magar</h4>
       </div>
     </div>
   );

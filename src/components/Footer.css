@@ -7,12 +7,21 @@
     justify-content: space-around;
     background-color: #fff;
     flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 
 
 .social-links{
     display: flex;
     gap: 10px;
+}
+
+.footer-content{
+    align-content: center;
+}
+
+.footer-content h4{
+    font-weight: 400;
 }
 
 
