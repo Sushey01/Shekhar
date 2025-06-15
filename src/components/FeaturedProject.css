@@ -1,0 +1,9 @@
+.feature-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-img img{
+    width: 100%;
+}
