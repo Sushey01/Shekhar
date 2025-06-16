@@ -1,6 +1,7 @@
 .feature-container{
-    padding: 20px;
-    border-bottom: 1px solid #f3c47d ;
+    padding-top: 60px;
+    padding: 40px;
+    border-bottom: 1px solid ;
 }
 
 .feature-projects{
@@ -8,6 +9,23 @@
     flex-direction: column;
     width: 100%;
     gap: 20px;
+}
+
+
+.feature-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.feature-title h1{
+    font-size:40px ;
+    font-weight: 600;
+}
+
+.feature-title p{
+    font-size: 18px;
 }
 
 

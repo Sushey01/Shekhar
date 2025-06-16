@@ -35,7 +35,7 @@ const FeaturedProject = () => {
         <div className="feature-title">
           <h1>Featured projects</h1>
           <p>
-            Find out about my works: read through my case studies, have look at
+            Find out about my latest works of my Intern: Read through my case studies, have look at
             final designs and try out prototypes I’ve built.
           </p>
         </div>
