@@ -2,15 +2,13 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 50%;
-    border: 1px solid;
+    width: 100%;
+    border: 1px solid #f3c47d;
     border-radius: 30px;
     gap: 20px;
 }
 
-.card-logo{
-    width: 50%;
-}
+
 
 .card-logo img{
     width: 150px;
@@ -37,6 +35,7 @@
     height: auto;
     align-self: center;
     border-radius: 10px;
+    border: 1px solid #f3c47d;
 }
 
 

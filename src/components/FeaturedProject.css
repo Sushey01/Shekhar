@@ -1,5 +1,6 @@
 .feature-container{
     padding: 20px;
+    border-bottom: 1px solid #f3c47d ;
 }
 
 .feature-projects{
@@ -10,3 +11,8 @@
 }
 
 
+.project-showcase{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}

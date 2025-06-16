@@ -8,11 +8,11 @@ import Quote from './components/Quote'
 const App = () => {
   return (
     <div>
-      {/* <Navbar/> */}
-      {/* <HeroSection/> */}
-      {/* <Quote/> */}
+      <Navbar/>
+      <HeroSection/>
+      <Quote/>
       <FeaturedProject/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }

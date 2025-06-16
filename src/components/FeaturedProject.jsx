@@ -3,6 +3,8 @@ import "./FeaturedProject.css";
 import ProjectCard from "./ProjectCard";
 import Tangerine from "../assets/images/tangerine.png";
 import HealthLogo from "../assets/images/HealthLogo.svg";
+import PivotalLogo from "../assets/images/PivotalLogo.svg"
+import PivotalMain from "../assets/images/pivotalm.png"
 
 const cardsData = [
   {
@@ -12,6 +14,15 @@ const cardsData = [
       "A stylish, responsive hospital website clone built with React and eye-catching CSS effects. Explore expert care, services, and more — all wrapped in a smooth, modern design.",
     infoText: "Read case study",
     mainImage: Tangerine,
+  },
+
+  {
+    logo: PivotalLogo,
+    title: "Pivotal-ERP",
+    description:
+    "Dynamic Technosoft Website that shares the dynamic's workflow and their journey of establishment.",
+    infoText:"Read case study",
+    mainImage: PivotalMain,
   },
 
 
@@ -29,7 +40,8 @@ const FeaturedProject = () => {
           </p>
         </div>
 
-        {cardsData.map((card, index)=>(
+        <div className="project-showcase">
+         {cardsData.map((card, index)=>(
           <ProjectCard 
           key={index}
           logo={card.logo}
@@ -38,6 +50,7 @@ const FeaturedProject = () => {
           infoText={card.infoText}
           mainImage={card.mainImage}/>
         ))}
+        </div>
       </div>
     </div>
   );
