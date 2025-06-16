@@ -4,6 +4,8 @@ import QuoteImage from "../assets/images/quote.png"
 
 
 const Quote = () => {
+
+
   return (
     <>
     <div className="quote-img">

@@ -3,6 +3,9 @@ import "./HeroSection.css";
 import Shekhar from "../assets/images/shekhar.png";
 
 const HeroSection = () => {
+
+
+
   return (
     <section>
       <div className="hero-container">
@@ -22,7 +25,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="hero-arrow">
+      <div className="hero-arrow" >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="80"

@@ -9,8 +9,12 @@ import Contact from './components/Contact'
 const App = () => {
   return (
     <div>
-gi
+      <Navbar/>
+      <HeroSection/>
+      <Quote/>
+      <FeaturedProject/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

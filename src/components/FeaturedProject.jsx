@@ -20,7 +20,7 @@ const cardsData = [
     logo: PivotalLogo,
     title: "Pivotal-ERP",
     description:
-    "Dynamic Technosoft Website that shares the dynamic's workflow and their journey of establishment.",
+    "Dynamic Technosoft Website that shares the dynamic's workflow and their journey of establishment. Exploring the hardwork and dedication of the dynamic technosoft in web-pages.",
     infoText:"Read case study",
     mainImage: PivotalMain,
   },

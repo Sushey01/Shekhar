@@ -94,7 +94,8 @@
 }
 
 .inputEmail{
-    width: 535px;
+    width: 100%;
+    max-width: 535px;
       padding: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -102,7 +103,8 @@
 }
 
 .userCountry{
-    width: 210px;
+    width: 100%;
+    max-width:  210px;
     padding: 15px;
     padding-right: 10px;
     padding-left: 10px;
@@ -110,7 +112,8 @@
 }
 
 .userCountry1{
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     padding-left: 10px;
 }
 
@@ -127,18 +130,21 @@ select {
 }
 
 .userName{
-    width:265px;
+    width: 100%;
+    max-width:265px;
     padding-left: 10px;
 }
 
 
 .userMessage{
-    width: 535px;
+    width: 100%;
+    max-width: 535px;
     padding-left: 10px;
 }
 
 .contact-button{
-    width: 180px;
+    width: 100%;
+    max-width: 180px;
     padding: 10px;
     font-size: 16px;
     background-color: skyblue;
