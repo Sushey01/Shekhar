@@ -12,6 +12,24 @@
     display: flex;
     flex-direction: column;
     padding: 60px;
+    gap: 40px;
+}
+
+.contact-head{
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.contact-para{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.contact-info{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -30,7 +48,7 @@
 }
 
 
-.contact1, .contact2, .contact3, .contact4, .contact5{
+.contact1, .contact2, .contact3, .contact4{
     display: flex;
     gap: 10px;
 }
@@ -76,14 +94,15 @@
 }
 
 .inputEmail{
-    width: 530px;
+    width: 535px;
       padding: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 10px;
 }
 
 .userCountry{
-    width: 200px;
+    width: 210px;
     padding: 15px;
     padding-right: 10px;
     padding-left: 10px;
@@ -91,19 +110,46 @@
 }
 
 .userCountry1{
-    width: 310px;
+    width: 320px;
+    padding-left: 10px;
 }
 
 input,
 textarea,
 select {
-  padding: 30px;
+  padding: 35px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 16px;
   border: 1px solid #ccc;
   /* border-radius: 8px; */
   margin-top: 6px; 
+}
+
+.userName{
+    width:265px;
+    padding-left: 10px;
+}
+
+
+.userMessage{
+    width: 535px;
+    padding-left: 10px;
+}
+
+.contact-button{
+    width: 180px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: skyblue;
+    border: 1px solid ;
+    transition: 0.3 ease-in-out;
+}
+
+.contact-button:hover{
+    background-color: orangered;
+    cursor: pointer;
+    color: #ccc;
 }
 
 

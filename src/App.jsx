@@ -9,11 +9,7 @@ import Contact from './components/Contact'
 const App = () => {
   return (
     <div>
-      {/* <Navbar/>
-      <HeroSection/>
-      <Quote/>
-      <FeaturedProject/>
-      <Footer/> */}
+gi
       <Contact/>
     </div>
   )

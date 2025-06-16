@@ -30,10 +30,10 @@ const Contact = () => {
             or phone, or send me a message using the contact form.
           </p>
         <div className="contact-info">
-          <h4>Email</h4>
+          <h3>Email</h3>
           <p>susmagar012@gmail.com</p>
 
-          <h4>Mobile</h4>
+          <h3>Mobile</h3>
           <p>+977-9813695301</p>
         </div>
 
@@ -86,6 +86,7 @@ const Contact = () => {
                 placeholder=""
                 value={formData.firstName}
                 onChange={handleChange}
+                className="userName"
                 required
               />
             </label>
@@ -95,10 +96,12 @@ const Contact = () => {
             <label>
               Last Name
               <input
-                type="lastName"
+              type="text"
+                name="lastName"
                 placeholder=""
                 value={formData.lastName}
                 onChange={handleChange}
+                className="userName"
               />
             </label>
           </div>
@@ -147,27 +150,14 @@ const Contact = () => {
           </label>
         </div>
         </div>
-      
+    
 
         <div className="contact4">
-          <h4>Subject</h4>
-          <span>(required)</span>
-        </div>
-        <label>
-          <input
-            type="text"
-            name="subject"
-            placeholder="+977"
-            value={formData.subject}
-          />
-        </label>
-
-        <div className="contact5">
           <h4>Message</h4>
           <span>(required)</span>
         </div>
         <label>
-          <textarea rows="5" placeholder="Your message..." />
+          <textarea rows="5" placeholder="Your message..." className="userMessage"/>
         </label>
 
         <button className="contact-button" type="submit">
