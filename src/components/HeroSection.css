@@ -22,8 +22,9 @@ section{
 }
 
 .hero-image img{
-    width: 500px;
-    height: 380px;
+    width: 420px;
+    height: 400px;
+    padding-top: 60px;
     border-radius: 10px;
     background: #00000080;
     background-color: #000000;

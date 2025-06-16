@@ -2,8 +2,8 @@
     padding: 20px;
     padding-left: 60px;
     padding-right: 100px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     background-color: #f7f3ed;
     position: fixed;
     width: 100%;
@@ -38,8 +38,8 @@ cursor: pointer;
 
 
 .logo img{
-    width: 150px;
-    height: 110px;
+    width: 200px;
+    height: 150px;
     padding-left: 30px;
 }
 

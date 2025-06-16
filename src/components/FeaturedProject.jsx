@@ -1,35 +1,46 @@
-import React from 'react'
-import './FeaturedProject.css'
-import Quote from "../assets/images/quote.png"
+import React from "react";
+import "./FeaturedProject.css";
+import ProjectCard from "./ProjectCard";
+import Tangerine from "../assets/images/tangerine.png";
+import HealthLogo from "../assets/images/HealthLogo.svg";
+
+const cardsData = [
+  {
+    logo: HealthLogo,
+    title: "Tangerine-Meringue",
+    description:
+      "A stylish, responsive hospital website clone built with React and eye-catching CSS effects. Explore expert care, services, and more — all wrapped in a smooth, modern design.",
+    infoText: "Read case study",
+    mainImage: Tangerine,
+  },
+
+
+];
 
 const FeaturedProject = () => {
   return (
-    <div className='feature-container'>
-             <div className="quote-img">
-        <img src={Quote}></img>
-
-        <div className="feature-projects">
-            <div className="feature-title">
-                <h1>Featured projects</h1>
-                <p>Find out about my works: read through my case studies, have look at final designs and try out prototypes I’ve built.</p>
-            </div>
-
-            <div className="card-container">
-                <div className="card-logo">
-                    <img></img>
-                </div>
-                <div className="card-content">
-                    <h1>Tangerine-Meringue</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem optio debitis corporis modi est iste, totam neque reiciendis doloremque asperiores quam accusantium temporibus recusandae beatae dicta, unde fugit praesentium?</p>
-                    <div className="card-info">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                    </div>
-                </div>
-            </div>
+    <div className="feature-container">
+      <div className="feature-projects">
+        <div className="feature-title">
+          <h1>Featured projects</h1>
+          <p>
+            Find out about my works: read through my case studies, have look at
+            final designs and try out prototypes I’ve built.
+          </p>
         </div>
+
+        {cardsData.map((card, index)=>(
+          <ProjectCard 
+          key={index}
+          logo={card.logo}
+          title={card.title}
+          description={card.description}
+          infoText={card.infoText}
+          mainImage={card.mainImage}/>
+        ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FeaturedProject
+export default FeaturedProject;
