@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../assets/images/logo.png";
+import FeaturedProject from "./FeaturedProject";
 
 
 const Navbar = () => {
