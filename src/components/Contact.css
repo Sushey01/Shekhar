@@ -1,29 +1,43 @@
 .contact-container{
     display: flex;
-    padding: 20px;
+    padding: 40px;
+    width: 100%;
+    justify-content: space-evenly;
     gap: 20px;
 }
 
 .contact-content{
-    width: 40%;
+    /* width: 40%; */
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 20px;
+}
+
+.contact-links{
+    display: flex;
+    gap: 20px;
 }
 
 .contact-form{
-    width: 60%;
+    /* width: 60%; */
+    flex-basis: 60%;
+    padding: 60px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 
-.contact1{
+.contact1, .contact2, .contact3, .contact4, .contact5{
     display: flex;
     gap: 10px;
 }
 
 .contact1-info {
     display: flex;
-    gap: 20px;
+    gap: 5px;
 }
 
 .contact1-info1 label{
@@ -35,3 +49,62 @@
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+.contact2-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact3-info{
+    display: flex;
+    gap: 5px;
+}
+
+
+.contact3-info1 label{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact3-info2 label{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputEmail{
+    width: 530px;
+      padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.userCountry{
+    width: 200px;
+    padding: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.userCountry1{
+    width: 310px;
+}
+
+input,
+textarea,
+select {
+  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  /* border-radius: 8px; */
+  margin-top: 6px; 
+}
+
+
+
