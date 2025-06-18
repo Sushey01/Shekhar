@@ -1,0 +1,22 @@
+.tangerine-container{
+    width: 100%;
+
+}
+
+
+.tangerine-project-title{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.tangerine-project-showcase{
+    padding: 0px;
+    width: 100%;
+}
+.tangerine-project-showcase img{
+    width: 100%;
+}
