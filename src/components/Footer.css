@@ -8,7 +8,9 @@
     background-color: #fff;
     flex-wrap: wrap;
     padding-bottom: 40px;
+    border-top: 1px solid ;
 }
+
 
 
 .social-links{
