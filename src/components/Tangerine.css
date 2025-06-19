@@ -9,6 +9,7 @@
     flex-direction: column;
     padding: 60px;
     width: 100%;
+    font-size: 20px;
     align-items: flex-start;
 }
 
@@ -40,6 +41,8 @@
     font-size: 14px;
     font-weight: 550;
     color: #343A39;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
 }
 
 .tangerine-showcase-button:hover{
