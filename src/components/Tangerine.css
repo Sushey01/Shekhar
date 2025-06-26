@@ -1,3 +1,6 @@
+
+
+
 .tangerine-container{
     width: 100%;
 
@@ -51,4 +54,34 @@
     transition: 0.3s ease-out;
     cursor: pointer;
     color: #ececec;
+}
+
+.animated-title {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid orange;
+  width: 0;
+  animation: typing 2s steps(10, end) forwards, blink 0.7s step-end infinite;
+  color: orangered;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10ch; /* For "Tangerine" */
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    border-color: orange;
+  }
+  50% {
+    border-color: transparent;
+  }
 }

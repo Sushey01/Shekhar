@@ -6,7 +6,7 @@ const Tangerine = () => {
   return (
     <div className="tangerine-container">
       <div className="tangerine-project-title">
-        <h1>Tangerine</h1>
+        <h1 className="animated-title">Tangerine</h1>
         <p>HTML | CSS | JAVASCRIPT | FUNCTIONALITY</p>
       </div>
 
