@@ -85,3 +85,51 @@
     border-color: transparent;
   }
 }
+
+
+/* Animate each project section */
+.project-section {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.6s ease-out forwards;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  margin-bottom: 20px;
+}
+
+/* Add delays to each */
+.project-section:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.project-section:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.project-section:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+/* Title style */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 5px;
+}
+
+/* Detail text style */
+.section-detail {
+  background: linear-gradient(to right, #fff3e0, #ffe0b2);
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  color: #444;
+}
+
+/* Animation keyframes */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

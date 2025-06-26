@@ -15,26 +15,26 @@ const Tangerine = () => {
       </div>
 
       <div className="tangerine-project-content">
-        <h4>
-          Overview:
-          <span>
-            A responsive clone of the South Himal Hospital website built with
-            React and CSS. It replicates key UI elements and structure for
-            educational practice in frontend development and modern styling
-            techniques.
-          </span>
-        </h4>
+  <div className="project-section">
+    <h4 className="section-title">Overview:</h4>
+    <p className="section-detail">
+      A responsive clone of the South Himal Hospital website built with React and CSS. It replicates key UI elements and structure for educational practice in frontend development and modern styling techniques.
+    </p>
+  </div>
 
-        <h4>Role: 
-          <span>Frontend Developer</span>
-        </h4>
+  <div className="project-section">
+    <h4 className="section-title">Role:</h4>
+    <p className="section-detail">Frontend Developer</p>
+  </div>
 
-         <h4>Toolkit: 
-          <span>Vite, Figma, and Vscode</span>
-        </h4>
+  <div className="project-section">
+    <h4 className="section-title">Toolkit:</h4>
+    <p className="section-detail">Vite, Figma, and Vscode</p>
+  </div>
 
-        <button className="tangerine-showcase-button">Visit Live Website</button>
-      </div>
+  <button className="tangerine-showcase-button">Visit Live Website</button>
+</div>
+
     </div>
   );
 };
