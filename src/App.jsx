@@ -10,12 +10,12 @@ import Tangerine from './components/Tangerine'
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/>
       <HeroSection/>
       <Quote/>
       <FeaturedProject/>
       <Contact/>
-      <Footer/>
+      <Footer/> */}
       <Tangerine/>
     </div>
   )
