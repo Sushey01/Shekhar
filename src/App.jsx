@@ -6,6 +6,7 @@ import FeaturedProject from './components/FeaturedProject'
 import Quote from './components/Quote'
 import Contact from './components/Contact'
 import Tangerine from './components/Tangerine'
+import Pivotal from './components/Pivotal'
 
 const App = () => {
   return (
@@ -16,7 +17,9 @@ const App = () => {
       <FeaturedProject/>
       <Contact/>
       <Footer/> */}
-      <Tangerine/>
+      {/* <Tangerine/> */}
+      <Pivotal/>
+
     </div>
   )
 }
