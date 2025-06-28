@@ -41,7 +41,7 @@ const ProjectCard = ({logo, title, description, infoText, mainImage}) => {
               <path d="M2 12H22" />
             </svg>
           </div>
-          <img src={mainImage} alt={`${title}`} className='main-image' onClick={Navigate("/")}></img>
+          <img src={mainImage} alt={`${title}`} className='main-image' ></img>
         </div>
     </>
   )
