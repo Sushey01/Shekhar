@@ -11,13 +11,13 @@ import Pivotal from './components/Pivotal'
 const App = () => {
   return (
     <div>
-      {/* <Navbar/>
+      <Navbar/>
       <HeroSection/>
       <Quote/>
       <FeaturedProject/>
       <Contact/>
-      <Footer/> */}
-      {/* <Tangerine/> */}
+      <Footer/>
+      <Tangerine/>
       <Pivotal/>
 
     </div>
