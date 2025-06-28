@@ -6,7 +6,10 @@ import HealthLogo from "../assets/images/HealthLogo.svg";
 import PivotalLogo from "../assets/images/PivotalLogo.svg"
 import PivotalMain from "../assets/images/pivotalm.png"
 
+
+
 const cardsData = [
+
   {
     logo: HealthLogo,
     title: "Tangerine-Meringue",
