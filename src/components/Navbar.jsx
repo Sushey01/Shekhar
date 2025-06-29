@@ -2,9 +2,11 @@ import React from "react";
 import "./Navbar.css";
 import Logo from "../assets/images/logo.png";
 import FeaturedProject from "./FeaturedProject";
+import { Link, useNavigate } from "react-router-dom";
 
 
 const Navbar = () => {
+  const navigate=useNavigate();
   return (
     <section className="section-nav">
       <div className="navbar-container">
@@ -12,10 +14,10 @@ const Navbar = () => {
           <img src={Logo}></img>
         </div>
         <div className="logo-content">
-          <a href="#">About Me</a>
-          <a href="#">Projects</a>
+          <Link to="/projects">Projects</Link>
+          <Link to="/">About Me</Link>
         </div>
-        <button className="nav-button">Contact Me</button>
+        <button className="nav-button" onClick={()=>navigate('/contact')} >Contact Me</button>
       </div>
     </section>
   );

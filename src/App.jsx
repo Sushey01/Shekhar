@@ -1,31 +1,22 @@
-import React from 'react'
-import HeroSection from './components/HeroSection'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import FeaturedProject from './components/FeaturedProject'
-import Quote from './components/Quote'
-import Contact from './components/Contact'
-import Tangerine from './components/Tangerine'
-import Pivotal from './components/Pivotal'
-import { BrowserRouter, Router, Routes } from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import Contact from "./components/Contact"
+import FeaturedProject from './components/FeaturedProject';
 
 const App = () => {
   return (
     <BrowserRouter>
-    <Router>
-      <Routes path="/" element={<HeroSection/>}/>
-      {/* <Navbar/>
-      <HeroSection/>
-      <Quote/>
-      <FeaturedProject/>
-      <Contact/>
-      <Footer/>
-      <Tangerine/>
-      <Pivotal/> */}
-
-    </Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HeroSection />} />
+        <Route path="/projects" element={<FeaturedProject />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default App
+export default App;
