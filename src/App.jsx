@@ -7,20 +7,24 @@ import Quote from './components/Quote'
 import Contact from './components/Contact'
 import Tangerine from './components/Tangerine'
 import Pivotal from './components/Pivotal'
+import { BrowserRouter, Router, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
+    <BrowserRouter>
+    <Router>
+      <Routes path="/" element={<HeroSection/>}/>
+      {/* <Navbar/>
       <HeroSection/>
       <Quote/>
       <FeaturedProject/>
       <Contact/>
       <Footer/>
       <Tangerine/>
-      <Pivotal/>
+      <Pivotal/> */}
 
-    </div>
+    </Router>
+    </BrowserRouter>
   )
 }
 
