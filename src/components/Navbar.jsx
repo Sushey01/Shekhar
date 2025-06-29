@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <section className="section-nav">
       <div className="navbar-container">
-        <div className="logo">
+        <div className="logo" onClick={()=>navigate('/')}>
           <img src={Logo}></img>
         </div>
         <div className="logo-content">
