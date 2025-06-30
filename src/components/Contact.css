@@ -1,5 +1,10 @@
+/* .section-contact{
+    padding: 40px;
+    background-color: #ccc;
+} */
+
 .contact-container{
-    
+    padding-top: 60px;
     display: flex;
     padding: 40px;
     width: 100%;

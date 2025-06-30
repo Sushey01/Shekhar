@@ -20,6 +20,7 @@ const App = () => {
             <HeroSection />
             <Quote />
             <FeaturedProject />
+            <Contact/>
           </>
         } />
         <Route path="/projects" element={<FeaturedProject />} />

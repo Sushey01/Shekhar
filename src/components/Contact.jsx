@@ -22,6 +22,7 @@ const Contact = () => {
   }
 
   return (
+    // <section className="section-contact">
     <div className="contact-container">
       <div className="contact-content">
           <h1 className="contact-head">Contact me</h1>
@@ -119,7 +120,7 @@ const Contact = () => {
               placeholder="example@example.com"
               onChange={formData.email}
               className="inputEmail"
-            />
+              />
           </label>
         </div>
 
@@ -146,7 +147,7 @@ const Contact = () => {
               placeholder="+977"
               value={formData.number}
               className="userCountry1"
-            />
+              />
           </label>
         </div>
         </div>
@@ -165,6 +166,7 @@ const Contact = () => {
         </button>
       </form>
     </div>
+    // </section>
   );
 };
 
