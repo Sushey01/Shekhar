@@ -20,7 +20,6 @@ const App = () => {
             <HeroSection />
             <Quote />
             <FeaturedProject />
-            <Footer/>
           </>
         } />
         <Route path="/projects" element={<FeaturedProject />} />
@@ -28,6 +27,7 @@ const App = () => {
         <Route path="/pivotal" element={<Pivotal />} />
         <Route path="/tangerine" element={<Tangerine />} />
       </Routes>
+       <Footer/>
     </BrowserRouter>
   );
 };
