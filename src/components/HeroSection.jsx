@@ -1,13 +1,11 @@
 import React from "react";
 import "./HeroSection.css";
 import Shekhar from "../assets/images/shekhar.png";
-import Quote from "./Quote";
-import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
 
 
-const navigate=useNavigate("")
+
 
 
   return (
@@ -29,7 +27,7 @@ const navigate=useNavigate("")
         </div>
       </div>
 
-      <div className="hero-arrow" onClick={navigate(<Quote/>)}>
+      <div className="hero-arrow">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="80"

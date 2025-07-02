@@ -17,6 +17,7 @@ const cardsData = [
       "A stylish, responsive hospital website clone built with React and eye-catching CSS effects. Explore expert care, services, and more — all wrapped in a smooth, modern design.",
     infoText: "Read case study",
     mainImage: Tangerine,
+    route: "/tangerine"
   },
 
   {
@@ -26,6 +27,7 @@ const cardsData = [
     "Dynamic Technosoft Website that shares the dynamic's workflow and their journey of establishment. Exploring the hardwork and dedication of the dynamic technosoft in web-pages.",
     infoText:"Read case study",
     mainImage: PivotalMain,
+    route:"/pivotal"
   },
 
 
@@ -51,7 +53,8 @@ const FeaturedProject = () => {
           title={card.title}
           description={card.description}
           infoText={card.infoText}
-          mainImage={card.mainImage}/>
+          mainImage={card.mainImage}
+          route={card.route}/>
         ))}
         </div>
       </div>
