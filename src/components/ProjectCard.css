@@ -25,6 +25,13 @@
 }
 
 
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
 .card-container:hover{
     cursor: pointer;
 }
