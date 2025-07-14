@@ -91,3 +91,13 @@ section{
     cursor: pointer;
 }
 
+
+
+@media(max-width:650px){
+   .hero-container{
+   
+    display: flex;
+    flex-direction: column;
+   }
+}
+

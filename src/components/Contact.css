@@ -168,3 +168,12 @@ select {
 
 
 
+@media (max-width:645px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+

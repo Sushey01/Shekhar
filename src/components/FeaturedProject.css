@@ -34,3 +34,23 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+
+
+@media(max-width:645px){
+
+
+    .feature-container{
+        padding: 20px;
+        padding-top: 0px;
+    }
+.feature-projects{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.project-showcase{
+    display: flex;
+    flex-direction: column;
+}
+}
