@@ -60,9 +60,13 @@ cursor: pointer;
 .nav-button:hover{
     cursor: pointer;
     background-color: #e74b12;
-    border: none;
+    /* border: none; */
     transition: 0.3s ease;
     color: #fff;
+       border-right: 3px solid transparent;
+   border-bottom: 3px solid transparent;
+   border-top: transparent;
+   border-left: transparent;
 }
 
 
