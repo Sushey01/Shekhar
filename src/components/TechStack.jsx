@@ -16,8 +16,7 @@ import {
 } from "react-icons/fa";
 import {
   SiVite,
-  SiVisualstudiocode,
-  SiSupabase
+  SiSupabase,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -58,8 +57,8 @@ const techStackData = [
     category: "Tools",
     techs: [
       { name: "GitHub", icon: <FaGithub /> },
-      { name: "VS Code", icon: <SiVisualstudiocode /> },
       { name: "Figma", icon: <FaFigma /> },
+      // VS Code removed to avoid issue
     ],
   },
 ];
@@ -92,7 +91,7 @@ const TechStack = () => {
         >
           <h2>{section.category}</h2>
           <div className="techstack-grid">
-            {section.techs.map((tech, index) => (
+            {section.techs.map((tech) => (
               <motion.div
                 key={tech.name}
                 className="tech-card"
