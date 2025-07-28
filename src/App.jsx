@@ -9,6 +9,7 @@ import Pivotal from './components/Pivotal';
 import Tangerine from './components/Tangerine';
 import Footer from "./components/Footer";
 import Quote from './components/Quote'; // Make sure this is imported!
+import TechStack from './components/TechStack';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <HeroSection />
             <Quote />
             <FeaturedProject />
+            <TechStack/>
             <Contact/>
           </>
         } />
