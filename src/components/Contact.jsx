@@ -136,6 +136,7 @@ const Contact = () => {
               <option>Nepal</option>
               <option>India</option>
               <option>Finland</option>
+              <option>USA</option>
             </select>
           </label>
           </div>
