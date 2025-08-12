@@ -22,7 +22,6 @@ const App = () => {
             <Quote />
             <FeaturedProject />
             <TechStack/>
-            {/* <Contact/> */}
           </>
         } />
         <Route path="/projects" element={<FeaturedProject />} />
