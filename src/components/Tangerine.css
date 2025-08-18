@@ -133,3 +133,14 @@
     transform: translateY(0);
   }
 }
+
+
+@media (max-width:645px){
+  .tangerine-showcase-button{
+    width: 100%;
+  }
+
+  .tangerine-showcase-button:hover{
+    background-color: none;
+  }
+}
