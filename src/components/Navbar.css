@@ -81,18 +81,21 @@ cursor: pointer;
   }
 
   .navbar-container {
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-items: flex-start; */
   }
 
   .logo img {
-    width: 150px;
+    width: 100px;
     height: auto;
     padding-left: 10px;
   }
 
   .logo-content {
     flex-direction: column;
+
     gap: 15px;
     width: 100%;
     padding: 0;
