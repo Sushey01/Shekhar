@@ -3,6 +3,7 @@
 
 .tangerine-container{
     width: 100%;
+    padding: 60px;
 
 }
 
@@ -10,7 +11,6 @@
 .tangerine-project-title{
     display: flex;
     flex-direction: column;
-    padding: 60px;
     padding-bottom: 20px;
     width: 100%;
     font-size: 20px;
@@ -19,7 +19,6 @@
 
 
 .tangerine-project-showcase{
-    padding: 60px;
     width: 100%;
 }
 .tangerine-project-showcase img{
@@ -27,7 +26,6 @@
 }
 
 .tangerine-project-content{
-    padding: 60px;
     text-align: justify;
     padding-top: 20px;
     font-size: 16px;
@@ -136,6 +134,30 @@
 
 
 @media (max-width:645px){
+
+  .tangerine-container{
+    margin-top: 25%;
+    padding: 30px;
+  }
+
+  .animated-title{
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .tangerine-project-title p{
+    font-size: 16px;
+  }
+
+  .section-title{
+    font-size: 16px;
+  }
+
+  .section-detail{
+    font-size: 14px;
+  }
+
+
   .tangerine-showcase-button{
     width: 100%;
   }

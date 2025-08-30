@@ -35,7 +35,7 @@
 @media (max-width: 645px) {
   .feature-container {
     padding: 20px;
-    padding-top: 30%;
+    padding-top: 25%;
   }
   .feature-projects {
     display: flex;
