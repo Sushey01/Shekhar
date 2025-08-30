@@ -34,7 +34,7 @@ const Pivotal = () => {
 
         <button
           className="pivotal-showcase-button"
-          onClick={() => window.open("https://dynamic-six-iota.vercel.app/", "_blank")}
+          onClick={() => window.open("httpsdynamic://-six-iota.vercel.app/", "_blank")}
         >
           Visit Live Website
         </button>

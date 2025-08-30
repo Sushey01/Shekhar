@@ -1,11 +1,11 @@
 .pivotal-container {
   width: 100%;
+  padding: 60px;
 }
 
 .pivotal-project-title {
   display: flex;
   flex-direction: column;
-  padding: 60px;
   padding-bottom: 20px;
   width: 100%;
   font-size: 20px;
@@ -13,7 +13,6 @@
 }
 
 .pivotal-project-showcase {
-  padding: 60px;
   width: 100%;
 }
 
@@ -22,7 +21,6 @@
 }
 
 .pivotal-project-content {
-  padding: 60px;
   text-align: justify;
   padding-top: 20px;
   font-size: 16px;
@@ -118,5 +116,41 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+
+@media (max-width:645px){
+
+  .pivotal-container{
+    margin-top: 25%;
+    padding: 30px;
+  }
+
+  .animated-title{
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .pivotal-project-title p{
+    font-size: 16px;
+  }
+
+  .section-title{
+    font-size: 16px;
+  }
+
+  .section-detail{
+    font-size: 14px;
+  }
+
+
+  .pivotal-showcase-button{
+    width: 100%;
+  }
+
+  .pivotal-showcase-button:hover{
+    background-color: none;
   }
 }
