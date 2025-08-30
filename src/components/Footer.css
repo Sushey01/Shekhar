@@ -26,4 +26,10 @@
     font-weight: 400;
 }
 
+@media(max-width:645px){
+    .footer-container{
+        padding: 20px;
+    }
+}
+
 

@@ -35,12 +35,21 @@
 @media (max-width: 645px) {
   .feature-container {
     padding: 20px;
-    padding-top: 0px;
+    padding-top: 30%;
   }
   .feature-projects {
     display: flex;
     margin-top: 20px;
     flex-direction: column;
+  }
+
+
+  .feature-title h1{
+    font-size: 18px;
+  }
+
+  .feature-title p{
+    font-size: 16px;
   }
 
   .project-showcase {
