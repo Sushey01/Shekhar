@@ -172,7 +172,7 @@ select {
     .contact-container{
         display: flex;
         flex-direction: column;
-        padding-top: 50%;
+        padding-top: 20%;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -182,10 +182,31 @@ select {
         padding: 20px;
     }
 
+    .contact-info h3{
+        font-size: 20px;
+    }
+
+    .contact-info p{
+        font-size: 16px;
+    }
+
+
+    .contact-head{
+        font-size: 22px;
+    }
+
+    .contact-para{
+        font-size: 16px;
+    }
+
     .contact-form{
         width: 100%;
         padding: 20px;
         margin-top: 10px;
+    }
+
+    .contact-button{
+        align-self: end;
     }
 }
 
