@@ -1,16 +1,24 @@
-<<<<<<< HEAD
-# Shekhar
-=======
-# React + Vite
+# Shekhar's Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio repository!  
+This project highlights my work, skills, and projects in web development.
 
-Currently, two official plugins are available:
+🌐 **Live Portfolio:** [Visit here](https://portfolio-six-topaz-23.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
+This portfolio is built to showcase:
+- My skills in **React, TypeScript, Node.js**, and more
+- Projects I’ve worked on in **tourism, eCommerce, and compliance workflows**
+- My approach to building **user-friendly, trustworthy, and scalable applications**
 
-## Expanding the ESLint configuration
+## Features
+- Responsive design for all devices 📱💻
+- Clean UI with modern styling 🎨
+- Integrated analytics and privacy workflows 🔒
+- Deployment powered by **Vercel**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> a88cf8d (portfolio)
+
+
+---
+
+✨ Feel free to check out my portfolio and connect with me!
